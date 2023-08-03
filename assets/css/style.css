@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoContainer {
+  margin-left: auto;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: end;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: black;
+  width: 100%;
+}
+
+header > * {
+  flex-grow: 1;
+}
+
+.navMenu {
+  text-align: center;
+  margin-left: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menuItems {
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.contact {
+  border: 2px solid white;
+  border-radius: 5px;
+  align-self: flex-end;
+  margin-left: auto;
+}
