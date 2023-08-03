@@ -5,6 +5,8 @@
 :root {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 a {
@@ -17,9 +19,7 @@ a {
 }
 
 .logo {
-  width: 150px;
-  height: 100px;
-  object-fit: cover;
+  font-size: 30px;
 }
 
 header {
@@ -28,9 +28,8 @@ header {
   align-items: center;
   align-content: end;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 30px 102.5px;
   background-color: black;
-  width: 100%;
 }
 
 header > * {
@@ -39,7 +38,7 @@ header > * {
 
 .navMenu {
   text-align: center;
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu {
@@ -50,12 +49,23 @@ header > * {
 
 .menuItems {
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
 .contact {
   border: 2px solid white;
   border-radius: 5px;
-  align-self: flex-end;
-  margin-left: auto;
+  max-width: 140px;
+  margin-right: auto;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  min-width: 300px;
+  background: url(../imgs/background.png);
+  background-color: darkgrey;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
